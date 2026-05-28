@@ -40,15 +40,6 @@ Vercel needs one of these at the **root** of your repo:
 
 5. Save
 
-**If you bought from GoDaddy:**
-1. Go to **My Products > DNS** next to your domain
-2. Edit the A record for `@` → set value to `76.76.21.21`
-3. Edit or add CNAME for `www` → set value to `cname.vercel-dns.com`
-
-**If you bought from Namecheap:**
-1. Dashboard → **Domain List > Manage > Advanced DNS**
-2. Same records as above
-
 ### Step 3 — Wait and verify
 - DNS changes take **5 min to 48 hours** to propagate (usually under 30 min)
 - Back in Vercel **Settings > Domains**, the domain will show a green checkmark when active
